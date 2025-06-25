@@ -1,0 +1,32 @@
+# Node
+node_modules/
+.pnpm-debug.log*
+*.log
+
+# SvelteKit
+.svelte-kit/
+.storybook-static/
+
+# Vite
+/dist/
+
+# Mac
+.DS_Store
+
+# Env
+.env*
+
+# Python
+math-sdk/venv/
+math-sdk/__pycache__/
+math-sdk/**/*.pyc
+
+# Build
+web-sdk/apps/*/build/
+web-sdk/packages/*/build/
+
+# Misc
+*.swp
+*.swo
+.idea/
+.vscode/ 
